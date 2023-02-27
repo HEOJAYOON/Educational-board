@@ -1,0 +1,33 @@
+/* 레이아웃 */
+.center {width: 1920px; height: 1080px;}
+
+/* 헤더 */
+.header {width: 1690px; height: 80px; padding: 30px 80px 30px 150px; justify-content: space-between; display: flex;}
+.header h1 {font-size: 30px; font-weight: 600; line-height : 80px;}
+.header div {line-height: 80px;}
+.header p {float: left; margin-left: 5px;}
+.header .log_out {margin-left: 20px; padding-left: 20px; border-left: 3px solid #28805e; line-height: 30px; margin-top: 25px; }
+.header .logout_icon {width: 20px; height: 20px; margin: 30px 0px 30px 10px;} 
+
+
+/* 로그인 */
+.login {width: 1920px; height: 800px; background-color: #f8f8f8; display: flex; justify-content: center; }
+.login .login_form { width: 800px; height: 100%; text-align: center; border-left: 44px solid #28805e;}
+.login .login_form h1 {font-size: 30px; font-weight: 600; margin-top: 150px;}
+.login .login_form input {font-size: 15px; background-color: #e9e9e9; padding-left: 10px;}
+.login .login_form input::placeholder {color: #b9b9b9;}
+.login .ID_PW {width: 230px; height: 40px; border: 0; border-radius: 4px; margin: 10px; color: #b9b9b9;}
+.login .ID_save {}
+.login .login_btn {width: 240px; height: 40px; border: 0; border-radius: 4px; margin: 10px; background-color: #25694F; color: #fff;}
+
+
+/* 게시판1 */
+.cont {width: 1920px; height: 800px; background-color: #f8f8f8; }
+.cont .search_put {display: flex; justify-content: flex-end; padding: 20px;}
+.cont .search {width: 300px; height: 50px; border: 1px solid #b7b7b7;}
+.cont .search_icon {width: 32px; height: 32px; opacity:50%; align-self: center;}
+.cont .search_put .put {width: 142px; height: 50px; font-size: 20px; color: #fff; border-radius: 5px; background-color: #28805e; margin: 0px 300px 0px 40px}
+
+/* 본문 */
+.board {box-shadow:2px 2px #b7b7b7}
+.list {width: 100%;}
